@@ -8,15 +8,15 @@ namespace ConsoleBomberMan.Utility
 {
 	class Vector2
 	{
-		public float x;
-		public float y;
+		public int x;
+		public int y;
 
 		public Vector2() {
 			x = 0;
 			y = 0;
 		}
 
-		public Vector2(float x, float y) {
+		public Vector2(int x, int y) {
 			this.x = x;
 			this.y = y;
 		}
@@ -62,6 +62,13 @@ namespace ConsoleBomberMan.Utility
 			}
 		}
 
+        public static bool operator ==(Vector2 value1, Vector2 value2) {
+            return value1.x == value2.x && value1.y == value2.y;
+        }
+
+        public static bool operator !=(Vector2 value1, Vector2 value2) {
+            return !(value1==value2);
+        }
 
 	}
 }
