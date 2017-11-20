@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Device\Renderer.cs" />
+    <Compile Include="Device\Texture.cs" />
+    <Compile Include="Extends\ExtendMath.cs" />
     <Compile Include="GameMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
