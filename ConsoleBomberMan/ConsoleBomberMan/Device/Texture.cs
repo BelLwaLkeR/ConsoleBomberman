@@ -20,7 +20,6 @@ namespace ConsoleBomberMan.Device
             this.position = position;
             this.textColor = textColor;
             this.backColor = backColor;
-            
         }
     }
 }

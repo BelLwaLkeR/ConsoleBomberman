@@ -23,10 +23,7 @@ namespace ConsoleBomberMan.Device
 				instance = value;
 			}
 		}
-
-
-
-
+        
 
 		private Renderer() {
 
